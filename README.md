@@ -15,6 +15,7 @@
         - person2
         ...
         - personM
+2. Download pre-trained [facenet model](https://github.com/santihong/face-recognition-mtcnn/releases/download/1.0/facenet_keras.h5) to `res` directory
 2. Run `python preprocess.py` to retrieve faces
 3. Run `python embeddings.py` to generate embedding features
 4. Run `main.py` to have fun
